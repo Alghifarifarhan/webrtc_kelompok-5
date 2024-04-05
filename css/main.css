@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+label {
+  color: white;
+  font-size: 25px;
+  margin-left: 500px;
+  margin-top: 600px;
+  padding-right: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+}
+.grid-item p {
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
+.grid-item video {
+  max-height: 300px;
+  max-width: 100%;
+  box-shadow: -2px -2px 15px #888888;
+}
+.grid-item .kick_btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#localVideo-container {
+  height: 250px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  box-shadow: -2px -2px 15px #888888;
+}
+
+#localVideo-container video {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://free4kwallpapers.com/uploads/wallpaper/minimalistic-mountains-black-and-white-version-wallpaper-1920x1080-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
